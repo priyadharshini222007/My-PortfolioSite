@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background:black;
+  color:white;
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  background: white;
+  margin: 1rem auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.skills ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.resume a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.resume a:hover {
+  background-color: #555;
+}
+
+footer {
+  background:lightgray;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
